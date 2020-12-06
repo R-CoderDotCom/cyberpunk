@@ -6,7 +6,7 @@ A function to create cyberpunk-style graphs with R based on ggplot2
 
 
 
-# Example
+# Line chart
 ```r
 my_df <- data.frame(x = c(4, 5, 5, 7, 9, 8, 6, 7),
                     z = c(1, 1.5, 4, 3, 5, 6, 4.5, 5))
@@ -20,7 +20,7 @@ cyber_lines(x = 0:7,
 ```
 <p style = "align-text: center"><img src = "https://user-images.githubusercontent.com/67192157/101294633-07bb8600-3819-11eb-8510-8acb2692efab.png"></img></p>
 
-
+# Bar chart
 ```r
 # Data
 df <- data.frame(x = c("A","B","C","D"),
