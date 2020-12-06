@@ -19,3 +19,15 @@ cyber_lines(x = 0:7,
            main = "Cyberpunk")
 ```
 <p style = "align-text: center"><img src = "https://user-images.githubusercontent.com/67192157/101294633-07bb8600-3819-11eb-8510-8acb2692efab.png"></img></p>
+
+
+```r
+# Data
+df <- data.frame(x = c("A","B","C","D"),
+                 y = c(1:4))
+
+# Barplot
+cyber_bars(df, area = FALSE, bg.col = "black")
+```
+
+<p style = "align-text: center"><img src = "https://user-images.githubusercontent.com/67192157/101295277-ef4d6a80-381c-11eb-8053-fb90bc031e5e.png"></img></p>
