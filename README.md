@@ -4,6 +4,11 @@ A function to create cyberpunk-style graphs with R based on ggplot2
 
 # Installation
 
+```r
+# Install the development version from GitHub:
+# install.packages("devtools")
+devtools::install_github("R-CoderDotCom/cyberpunk")
+```
 
 
 # Line chart
