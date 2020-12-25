@@ -56,11 +56,11 @@ cyber_lines <- function(x, df, col, palette = 1, glow = FALSE, area = FALSE, mai
 
             }
 
-            # for (i in (n_lines + 1):1) {
-            #
-            #    p <- p + geom_point(size = 4 + (diff_linewidth * i), alpha = ifelse(i == 1, 1, alpha_value))
-            #
-            # }
+            for (i in (n_lines + 1):1) {
+
+               p <- p + geom_point(size = 4 + (diff_linewidth * i), alpha = ifelse(i == 1, 1, alpha_value))
+
+            }
          }
 
    p <- p + scale_x_continuous(limits = xlim) +
@@ -82,4 +82,6 @@ cyber_lines <- function(x, df, col, palette = 1, glow = FALSE, area = FALSE, mai
    return(p)
 
 }
+
+
 

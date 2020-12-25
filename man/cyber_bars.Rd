@@ -28,7 +28,6 @@ TODO
 }
 \examples{
 # TODO
-
 }
 \author{
 \itemize{

@@ -2,4 +2,8 @@
 
 export(cyber_bars)
 export(cyber_lines)
+export(theme_cyber)
 import(ggplot2)
+importFrom(grDevices,colorRampPalette)
+importFrom(grDevices,rgb)
+importFrom(utils,stack)

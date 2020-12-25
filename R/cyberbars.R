@@ -12,7 +12,8 @@
 #'
 #' @examples
 #' # TODO
-#'
+#' @importFrom grDevices colorRampPalette rgb
+#' @importFrom utils stack
 #' @import ggplot2
 #' @export
 cyber_bars <- function(df, col, palette = 1, area = FALSE, main = NULL, main.size = 20, sub = NULL, xlab = NULL, ylab = NULL, bg.col = "#212946", grid.col = "#242d4d", text.col = "lightgray", lwd = 1.75){
@@ -48,6 +49,5 @@ cyber_bars <- function(df, col, palette = 1, area = FALSE, main = NULL, main.siz
   return(p)
 
 }
-
 
 
